@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="CoffeeHouse-Style/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="CoffeeHouse-Style/style.css">
+  <title>Coffee House</title>  
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__menu">
+        <div class="logo"><img src="Img/logo.svg" alt="logo"></div>
+        <nav>
+          <ul class="header__nav">
+            <li><a href="#fvrt">Favorite coffee</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#mbl">Mobile app</a></li>
+            <li><a href="#cnt">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="header__menu-block">
+          <a href="#">Menu</a>
+          <a href="#"><img src="Img/coffee-cup.svg" alt="coffee-cup" width="20" height="20" style="padding-top: 4px"></a>
+        </div>
+      </div>
+      <div class="header__bunner">
+        <div class="header__title">
+          <h1><span class="text-style">Enjoy</span> premium coffee at our charming cafe</h1>
+          <p>With its inviting atmosphere and delicious coffee options, the Coffee 
+            House Resource is a popular destination for coffee lovers and those seeking a warm 
+            and inviting space to enjoy their favorite beverage.
+          </p>
+          <div class="banner-button">
+            <a href="#">Menu</a>
+          </div>
+        </div>
+      </div>  
+    </header>
+
+    <main class="main">
+
+      <section id="fvrt" class="slider">
+        <h2>Choose your <span class="text-style">favorite</span> coffee</h2>
+        <div class="slider__box">
+                    <!-- Slider main container -->
+          <div class="swiper">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+            <!-- Slides -->
+
+              <div class="swiper-slide">
+                <figure class="slide-content">
+                  <img src="Img/slide-1-desk.png" alt="slide1" width="480" height="480">
+                  <figcaption class="description">
+                    <h3>S’mores Frappuccino</h3>
+                    <p>This new drink takes an espresso and mixes it with 
+                      brown<br> sugar and cinnamon before being topped with oat milk.
+                    </p>
+                    <p class="price">$5.50</p>
+                  </figcaption>
+                </figure>  
+              </div>
+
+              <div class="swiper-slide">
+                <figure class="slide-content">
+                  <img src="Img/slide-2-desk.png" alt="slide2" width="480" height="480">
+                  <figcaption class="description">
+                    <h3>Caramel Macchiato</h3>
+                    <p>Fragrant and unique classic espresso with rich caramel-peanut<br>  
+                      syrup, with cream under whipped thick foam.
+                    </p>
+                    <p class="price">$5.00</p>
+                  </figcaption>
+                </figure>  
+              </div>
+              
+              <div class="swiper-slide">
+                <figure class="slide-content">
+                  <img src="Img/slide-3-desk.png" alt="slide3" width="480" height="480">
+                  <figcaption class="description">
+                    <h3>Ice coffee</h3>
+                    <p>A popular summer drink that tones and invigorates. Prepared<br>
+                      from coffee, milk and ice.
+                    </p>
+                    <p class="price">$4.50</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutus" class="about">
+        <h2>Resource is <span class="text-style">the perfect and cozy place</span> where<br> you 
+          can enjoy a variety of hot beverages, relax,<br> catch up with friends, or get some 
+          work done.
+        </h2>
+        <div class="about__imgs">
+          <div class="about__column-left">
+            <div class="about__img img1"></div>
+            <div class="about__img img2"></div> 
+          </div>
+          <div class="about__column-right">
+            <div class="about__img img3"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mbl" class="mobile">
+        <div class="mobile__offer">
+          <div class="mobile__content">
+            <h2><span class="text-style">Download</span> our apps to start ordering</h2>
+            <p>Download the Resource app today and experience the comfort of ordering 
+              your favorite coffee from wherever you are
+            </p>
+            <div class="buttons">
+              <button class="button btn-app"></button>
+              <button class="button btn-google"></button>
+            </div>
+          </div>
+        </div>
+        <div class="mobile__img"></div>
+      </section>
+    </main>
+
+    <footer id="cnt" class="footer">
+      <div class="footer__offer">
+        <div class="footer__item offer">
+          <h2>Sip, Savor, Smile.<br><span class="text-style">It’s coffee time!</span></h2>
+          <div class="social-icons">
+            <a href="https://www.twitter.com"><div class="social-icon twitter"></div></a>
+            <a href="https://www.instagram.com"><div class="social-icon instagram"></div></a>
+            <a href="https://www.facebook.com"><div class="social-icon facebook"></div></a>
+          </div>
+        </div>
+        <div class="footer__item contacts">
+          <h3>Contact us</h3>
+          <ul class="contacts__items">
+            <li class="contacts__item">
+              <div class="contacts__icon icon1"></div>
+              <p>8558 Green Rd.,  LA</p>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__icon icon2"></div>
+              <p>+1 (603) 555-0123</p>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__icon icon3"></div>
+              <p>Mon-Sat: 9:00 AM – 23:00 PM</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+</html>
